@@ -300,8 +300,8 @@
                 var trajectoryBadge = (d.dbd_trajectory && (d.dbd_trajectory.indexOf('decline') >= 0 || d.dbd_trajectory.indexOf('fall') >= 0)) ? 
                     'badge-substituter' : ((d.dbd_trajectory && d.dbd_trajectory.indexOf('growth') >= 0) ? 'badge-expander' : 'badge-stable');
                 
-                var dbdColor = d.dbd_overall_pct > 0 ? '#3d5a73' : '#5c4a6e';
-                var totalColor = d.total_overall_pct > 0 ? '#3d5a73' : '#5c4a6e';
+                var dbdColor = d.dbd_overall_pct > 0 ? '#1B7837' : '#B2182B';
+                var totalColor = d.total_overall_pct > 0 ? '#1B7837' : '#B2182B';
                 
                 row.innerHTML = '<td><strong>' + (d.center_name || d.CTR_CODE) + '</strong></td>' +
                     '<td>' + (d.region || '') + '</td>' +
